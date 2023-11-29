@@ -18,10 +18,12 @@ Example:
 5. Download the entire directory from server:
    
     scp -r lab321@172.21.243.181:/home/lab321/zxw/project/ (remote directory) /mnt/e/Users/xinwe/Desktop/Recent_file/GLFtest_V2_0 (local directory)
+   
 
 7. Upload the local entire director to server:
    
     scp -r  /mnt/e/Users/xinwe/Desktop/Recent_file/GLFtest_V2_0 (local directory) lab321@172.21.243.181:/home/lab321/zxw/project/ (remote directory)
+   
 
 Send files to server:
 
