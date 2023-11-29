@@ -1,31 +1,23 @@
 # pi
 ## 1. Download files from server:
-    'scp username@servername:/path/filename /var/www/local_dir (local directory)'
-   
+    scp username@servername:/path/filename /var/www/local_dir (local directory)   
 ### Example:
-
     scp root@192.168.1.100:/var/www/text.txt /var/www/local_dir
     
 ## 2. Upload local files to server:
-   
-    scp /path/filename username@servername:/path
-   
+    scp /path/filename username@servername:/path  
 ### Example:
-
     scp /var/www/text.php root@192.168.1.100:/var/www/server_dir (server directory)    
     
 ## 3. Download the entire directory from server:
-   
     scp -r lab321@172.21.243.181:/home/lab321/zxw/project/ (remote directory) /mnt/e/Users/xinwe/Desktop/Recent_file/GLFtest_V2_0 (local directory)
    
 
 ## 4. Upload the local entire director to server:
-   
     scp -r  /mnt/e/Users/xinwe/Desktop/Recent_file/GLFtest_V2_0 (local directory) lab321@172.21.243.181:/home/lab321/zxw/project/ (remote directory)
    
 
 ## Send files to server:
-
 ### test1: 
     scp -r  /mnt/e/Users/xinwe/Desktop/Recent_file/GLFtest_V2_0 lab321@172.21.243.181:/home/lab321/zxw/project/
 ### test2:
